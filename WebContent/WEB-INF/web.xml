@@ -8,10 +8,4 @@
 	<welcome-file-list>
 		<welcome-file>index.jsp</welcome-file>
 	</welcome-file-list>
-	<jsp-config>
-		<taglib>
-			<taglib-uri>https://phylliscoders.github.io/jsp/tlds/pc</taglib-uri>
-			<taglib-location>/WEB-INF/numberformatter.tld</taglib-location>
-		</taglib>
-	</jsp-config>
 </web-app>
