@@ -16,5 +16,9 @@
 	
 	<pc:numberFormat number="1938270" format="# ###.00 Won"/><br><br>
 	
+	<pc:numberToHangeul number="123456" cc="N"/><br><br>
+	
+	<pc:numberToHangeul number="123456789" cc="Y"/>
+	
 </body>
 </html>

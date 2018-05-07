@@ -9,9 +9,10 @@
 	<tlib-version>2.1</tlib-version>
 	<short-name>pc</short-name>
 	<uri>https://phylliscoders.github.io/jsp/tlds/pc</uri>
+	<!-- General Number -->
 	<tag>
 		<name>numberFormat</name>
-		<tag-class>com.phylliscoders.taglibs.NumberFormatterTag</tag-class>
+		<tag-class>com.phylliscoders.taglibs.number.NumberFormatterTag</tag-class>
 		<body-content>empty</body-content>
 		<attribute>
 			<name>format</name>
@@ -20,6 +21,22 @@
 		<attribute>
 			<name>number</name>
 			<required>true</required>
+		</attribute>
+	</tag>
+	
+	<!-- Number To Hangeul -->
+	<tag>
+		<name>numberToHangeul</name>
+		<tag-class>com.phylliscoders.taglibs.number.NumberToHangeulTag</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+			<name>number</name>
+			<required>true</required>
+		</attribute>
+		<attribute>
+			<name>cc</name>
+			<required>true</required>
+			<type>boolean</type>
 		</attribute>
 	</tag>
 </taglib>
