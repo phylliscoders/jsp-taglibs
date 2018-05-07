@@ -32,9 +32,6 @@ public class NumberToHangeulTag extends SimpleTagSupport {
 
 	@Override
 	public void doTag() throws JspException, IOException {
-		System.out.println("Number is : " + number);
-		System.out.println("cc is : " + cc);
-		
 		// 한글, 한자 담을 배열
 		String[] han1;
 		String[] han2;
