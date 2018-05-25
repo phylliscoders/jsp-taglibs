@@ -39,4 +39,70 @@
 			<type>boolean</type>
 		</attribute>
 	</tag>
+	
+	<!-- Social Security Number -->
+	<tag>
+		<name>secSsn</name>
+		<tag-class>com.phylliscoders.taglibs.security.SecuritySsnTag</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+			<name>value</name>
+			<required>true</required>
+		</attribute>
+	</tag>
+
+	<!-- Name -->
+	<tag>
+		<name>secName</name>
+		<tag-class>com.phylliscoders.taglibs.security.SecurityNameTag</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+			<name>value</name>
+			<required>true</required>
+		</attribute>
+	</tag>
+	
+	<!-- Phone Number -->
+	<tag>
+		<name>secPhone</name>
+		<tag-class>com.phylliscoders.taglibs.security.SecurityPhoneTag</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+			<name>value</name>
+			<required>true</required>
+		</attribute>
+	</tag>
+	
+	<!-- Tel Number -->
+	<tag>
+		<name>secTel</name>
+		<tag-class>com.phylliscoders.taglibs.security.SecurityTelTag</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+			<name>value</name>
+			<required>true</required>
+		</attribute>
+	</tag>
+	
+	<!-- Number Only -->
+	<tag>
+		<name>secNo</name>
+		<tag-class>com.phylliscoders.taglibs.security.SecurityNoTag</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+			<name>value</name>
+			<required>true</required>
+		</attribute>
+	</tag>
+	
+	<!-- IP Address -->
+	<tag>
+		<name>secIp</name>
+		<tag-class>com.phylliscoders.taglibs.security.SecurityIpTag</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+			<name>value</name>
+			<required>true</required>
+		</attribute>
+	</tag>
 </taglib>
