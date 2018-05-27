@@ -11,8 +11,8 @@ Useful JSP Custom taglibs for Korean
 
 - [v] number format general
 - [v] number to hangeul
-- [ ] security ssn
-- [ ] security name
+- [v] security ssn
+- [v] security name
 - [ ] security phone number
 - [ ] security tel number
 - [ ] security number only
