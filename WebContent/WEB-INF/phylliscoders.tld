@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+	version="2.0">
+
+	<description>Number Formatter Custom Tag</description>
+	<tlib-version>2.1</tlib-version>
+	<short-name>pc</short-name>
+	<uri>https://phylliscoders.github.io/jsp/tlds/pc</uri>
+	<!--
+	============================================================================= 
+									Number
+	=============================================================================
+	-->
+	<!-- General Number -->
+	<tag>
+		<name>numberFormat</name>
+		<tag-class>com.phylliscoders.taglibs.number.NumberFormatterTag</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+			<name>format</name>
+			<required>true</required>
+		</attribute>
+		<attribute>
+			<name>number</name>
+			<required>true</required>
+		</attribute>
+	</tag>
+	
+	<!-- Number To Hangeul -->
+	<tag>
+		<name>numberToHangeul</name>
+		<tag-class>com.phylliscoders.taglibs.number.NumberToHangeulTag</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+			<name>number</name>
+			<required>true</required>
+		</attribute>
+		<attribute>
+			<name>cc</name>
+			<required>true</required>
+			<type>boolean</type>
+		</attribute>
+	</tag>
+	
+	<!--
+	============================================================================= 
+									Security
+	=============================================================================
+	-->
+	<!-- Social Security Number -->
+	<tag>
+		<name>secSsn</name>
+		<tag-class>com.phylliscoders.taglibs.security.SecuritySsnTag</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+			<name>value</name>
+			<required>true</required>
+		</attribute>
+	</tag>
+
+	<!-- Name -->
+	<tag>
+		<name>secName</name>
+		<tag-class>com.phylliscoders.taglibs.security.SecurityNameTag</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+			<name>value</name>
+			<required>true</required>
+		</attribute>
+	</tag>
+	
+	<!-- Phone Number -->
+	<tag>
+		<name>secPhone</name>
+		<tag-class>com.phylliscoders.taglibs.security.SecurityPhoneTag</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+			<name>value</name>
+			<required>true</required>
+		</attribute>
+	</tag>
+	
+	<!-- Tel Number -->
+	<tag>
+		<name>secTel</name>
+		<tag-class>com.phylliscoders.taglibs.security.SecurityTelTag</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+			<name>value</name>
+			<required>true</required>
+		</attribute>
+	</tag>
+	
+	<!-- Number Only -->
+	<tag>
+		<name>secNo</name>
+		<tag-class>com.phylliscoders.taglibs.security.SecurityNoTag</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+			<name>value</name>
+			<required>true</required>
+		</attribute>
+	</tag>
+	
+	<!-- IP Address -->
+	<tag>
+		<name>secIp</name>
+		<tag-class>com.phylliscoders.taglibs.security.SecurityIpTag</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+			<name>value</name>
+			<required>true</required>
+		</attribute>
+	</tag>
+</taglib>

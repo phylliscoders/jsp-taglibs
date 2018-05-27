@@ -7,6 +7,19 @@ Useful JSP Custom taglibs for Korean
 <%@ taglib uri="https://phylliscoders.github.io/jsp/tlds/pc" prefix="pc"%>
 ```
 
+## TODO
+
+- [v] number format general
+- [v] number to hangeul
+- [v] security ssn
+- [v] security name
+- [ ] security phone number
+- [ ] security tel number
+- [ ] security number only
+- [ ] security ip address
+- [ ] ln2br
+- [ ] escape
+
 ## Number Format
 
 ### general
@@ -22,20 +35,6 @@ Useful JSP Custom taglibs for Korean
 
 <pc:numberToHangeul number="12345" cc="Y" />
 // 一萬二千三百四十五
-```
-
-## Date Format
-
-### date dash format
-```java
-<pc:dateDash value="20180507" />
-// 2018-05-07
-```
-
-### date format by language
-```java
-<pc:dateLang value="20180507" lang="ko" />
-// 2018년 05월 07일
 ```
 
 ## Security Format

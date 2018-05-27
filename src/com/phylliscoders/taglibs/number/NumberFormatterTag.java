@@ -1,4 +1,4 @@
-package com.phylliscoders.taglibs;
+package com.phylliscoders.taglibs.number;
 
 import java.io.IOException;
 import java.text.DecimalFormat;
@@ -30,8 +30,6 @@ public class NumberFormatterTag extends SimpleTagSupport {
 
 	@Override
 	public void doTag() throws JspException, IOException {
-		System.out.println("Number is:" + number);
-		System.out.println("Format is:" + format);
 		try {
 			double amount = Double.parseDouble(number);
 			DecimalFormat formatter = new DecimalFormat(format);
