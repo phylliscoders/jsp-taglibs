@@ -1,10 +1,19 @@
-# jsp-taglibs
-Useful JSP Custom taglibs for Korean
+# Phylliscoders JSP Custom Tag Library
 
-## Get Started
+Useful JSP Custom taglibs for Korean
+대한민국 내에서 개발하는 데 필요할 만한 JSP 커스텀 태그 라이브러리입니다.
+지속적인 업데이트 예정입니다.
+
+## 설치
+
+```dist/phylliscoders.jar``` 경로의 파일을 다운로드 후 사용자 프로젝트의 ```WEB-INF/lib``` 폴더에 jar파일을 복사해 주세요.
+
+## 시작하기
 
 ```java
 <%@ taglib uri="https://phylliscoders.github.io/jsp/tlds/pc" prefix="pc"%>
+
+<%-- 자세한 예제는 하단에 설명해 놓았습니다. --%>
 ```
 
 ## TODO
@@ -13,10 +22,10 @@ Useful JSP Custom taglibs for Korean
 - [v] number to hangeul
 - [v] security ssn
 - [v] security name
-- [ ] security phone number
-- [ ] security tel number
-- [ ] security number only
-- [ ] security ip address
+- [v] security phone number
+- [v] security tel number
+- [v] security number only
+- [v] security ip address
 - [ ] ln2br
 - [ ] escape
 
@@ -81,7 +90,7 @@ Useful JSP Custom taglibs for Korean
 // 192.168.***.***
 ```
 
-## ln2br
+## ln2br (예정)
 
-## escape
+## escape (예정)
 

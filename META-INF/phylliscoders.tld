@@ -5,7 +5,7 @@
 	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
 	version="2.0">
 
-	<description>Phylliscoders JSP Custom Tag Library</description>
+	<description>Number Formatter Custom Tag</description>
 	<tlib-version>2.1</tlib-version>
 	<short-name>pc</short-name>
 	<uri>https://phylliscoders.github.io/jsp/tlds/pc</uri>
