@@ -18,5 +18,24 @@
 	
 	<pc:secName value="홍길동이야" />
 	
+	<br /><br />
+	
+	<pc:secPhone value="01012345678" />
+	
+	<br /><br />
+	
+	<pc:secTel value="02-1111-2222" /><br />
+	<pc:secTel value="02-111-2222" /><br />
+	<pc:secTel value="031-1111-2222" /><br />
+	<pc:secTel value="031-111-2222" />
+	
+	<br /><br />
+	
+	<pc:secNo value="서대문구 거북골로 33" />
+
+	<br /><br />
+	
+	<pc:secIp value="192.168.0.1" />
+	
 </body>
 </html>
